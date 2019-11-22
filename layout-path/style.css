@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #32325f;
+  font-family: "Roboto", sans-serif;
+}
+/* Main */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: #f4f5f7;
+  height: 100vh;
+  padding-bottom: 190px;
+}
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 74px;
+  width: 80%;
+  margin: auto;
+}
+.author {
+  font-size: 20px;
+  font-weight: 700;
+  color: #95989a;
+  text-transform: uppercase;
+}
+.socialIcon {
+  color: #95989a;
+  margin-right: 5px;
+}
+.bookBox {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.bookDecs {
+  display: flex;
+  flex-direction: column;
+}
+.main__subText {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.main__bookName {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.main__bookDesc {
+  width: 516px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.main__bookPrice {
+  font-size: 48px;
+  font-weight: 400;
+}
+.buttomBox {
+  margin-top: 50px;
+}
+.main__bookOrder {
+  width: 214px;
+  height: 66px;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border: 1px solid #2dce89;
+  border-radius: 6px;
+  background: #2dce89;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 30px;
+}
+.main__bookReviews {
+  width: 250px;
+  height: 66px;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  background-color: #5e72e4;
+  border: 1px solid #5e72e4;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main__boocCover {
+  width: 559px;
+  height: 364px;
+}
+/* Information */
+.information {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+.boxName {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 74px;
+  width: 80%;
+  margin: auto;
+}
+.indormationContainer {
+  width: 80%;
+  margin: auto;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+li {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.informationItem__img {
+  margin-bottom: 40px;
+}
+.informationItem__text {
+  width: 258px;
+  height: 163px;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Buyers */
+.buyers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f5f7;
+}
+.photoBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.imgItem {
+  width: 362px;
+  height: 254px;
+  margin-bottom: 40px;
+}
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: #ffffff;
+  background: #32325f;
+  padding: 20px 0 20px 0;
+}
+.footerInformation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.footerInformation__item {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  width: 256px;
+}
