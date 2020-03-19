@@ -1,0 +1,78 @@
+/* main */
+@media (max-width: 1200px) {
+  .restaurants--card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 850px) {
+  .restaurants--list {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .restaurants--card {
+    width: auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .catalog--card {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 690px) {
+  .footer--info,
+  .footer-tech {
+    flex-direction: column;
+  }
+  .footer-tech span {
+    margin-bottom: 24px;
+  }
+  .rectangle--form {
+    justify-content: center;
+    align-items: center;
+  }
+  .form--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form--btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 693px) {
+  .main--menu {
+    display: none;
+  }
+  .catalog--title {
+    text-align: center;
+    position: relative;
+  }
+  .catalog--title::before {
+    content: "";
+
+    position: absolute;
+
+    height: 1px;
+    width: 84px;
+    background: #757575;
+
+    bottom: -12px;
+  }
+  .catalog--list {
+    padding-top: 56px;
+  }
+  .catalog--card{
+    margin-bottom: 10px;
+  }
+  .catalog--card:first-child {
+    margin-top: 45px;
+  }
+}
